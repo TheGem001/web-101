@@ -5,8 +5,54 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 </head>
+<style>
+    .container {
+        display: flex;
+        gap: 10px;
+        flex-wrap: wrap;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: 90vh;
+        border: 3px solid black;
+        border-radius: 10px;
+    }
+    body {
+        margin: 10px;
+    }
+    .item {
+        font-size: 24px;
+        font-weight: bold;
+        font-family: Arial, sans-serif;
+        text-align: center;
+        line-height: 100px;
+        border: 3px solid black;
+        border-radius: 10px;
+        background-color: rgb(41, 212, 161);
+        width: 100px;
+        height: 100px;
+    }
+    /* .item-2 {
+        border: 1px solid black;
+        border-radius: 10px;
+        background-color: rgb(41, 212, 161);
+        width: 100px;
+        height: 100px;
+    }
+    .item-3 {
+        border: 1px solid black;
+        border-radius: 10px;
+        background-color: rgb(41, 212, 161);
+        width: 100px;
+        height: 100px;
+    } */
+    </style>
 <body>
-    <p title="Fun Activity">Hover over this text to see a tooltip.<a href="https://example.com" target="_blank">Link</a></p>
-
+    <div class="container">
+        <div class="item">1</div>
+        <div class="item">2</div>
+        <div class="item">3</div>
+        <div class="item">4</div>
+    </div>
 </body>
 </html>

@@ -20,7 +20,7 @@ nav {
     text-align: center;
     font-weight: bold;
     padding: 1px;
-    border-radius: 3px;
+    border-radius: 5px;
     border: 1px solid #ccc;
     margin-bottom: 5px;
 }
@@ -30,3 +30,10 @@ nav {
     border-radius: 5px;
     border: 1px solid #ccc;
 }
+.line
+    {
+        border-top: 2px solid #1e1c1c;
+        margin: 20px 0;
+        border-radius: 5px;
+        border-bottom: 2px solid #2e2a2a;
+    }
