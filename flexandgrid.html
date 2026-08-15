@@ -5,7 +5,60 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 </head>
+<style>
+    body
+    {
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+    .line
+    {
+        border-top: 2px solid #000;
+        margin: 20px 0px;
+    }
+    .container
+    {
+        /* display: grid;
+        gap: 1px;
+        @media screen and (max-width: 768px) {
+            grid-template-columns: repeat(2, 1fr);
+        } */
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        justify-content: center;
+    }
+    .item
+    {
+        margin: 2px;
+        padding: 5px;
+        border: 1px solid black;
+        border-radius: 10px;
+        text-align: center;
+        font-size: 24px;
+        font-weight: bold;
+
+    }
+    .item-5
+    {
+        margin: 2px;
+        align-items: end;
+        padding: 5px;
+        border: 1px solid black;
+        border-radius: 10px;
+        text-align: center;
+        font-size: 24px;
+        font-weight: bold;
+    }
+</style>
 <body>
     <P>Grid Practice</P>
+    <div class="line"></div>
+    <div class="container">
+        <div class="item" style="background-color: rgb(41, 212, 161);">+</div>
+        <div class="item" style="background-color: rgb(41, 212, 161);">92</div>
+        <div class="item" style="background-color: rgb(41, 212, 161);">300</div>
+        <div class="item" style="background-color: rgb(41, 212, 161);">1311</div>
+        <div class="item" style="background-color: rgb(41, 212, 161);">047</div>
+    </div>
 </body>
 </html>
