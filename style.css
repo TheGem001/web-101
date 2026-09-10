@@ -37,3 +37,24 @@ nav {
         border-radius: 5px;
         border-bottom: 2px solid #2e2a2a;
     }
+button {
+    background-color: #f19148;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+button a {
+    color: white;
+    text-decoration: none;
+}
+button:hover {
+    background-color: #eba774;
+}
