@@ -28,13 +28,12 @@
                 margin-right: 15px;
             }
             .video-creator-avatar {
-                display: inline-block;
-                width: 50px;
-                vertical-align: top;
+            }
+            .video-info-grid {
+                display: grid;
+                grid-template-columns: 50px 1fr;
             }
             .video-info {
-                display: inline-block;
-                width: 200px;
             }
             .creator-pfp {
                 width: 40px;
@@ -59,6 +58,7 @@
                 margin-bottom: 4px;
             }
             
+            
         </style>
     </head>
     <body>
@@ -69,24 +69,29 @@
                 <img class="thumbnail" src="thumbnails/thumbnail-1.webp">
             </div>
 
-            <div class="video-creator-avatar">
-                <img class="creator-pfp" src="creators/channel-1.jpeg">
+            <div class="video-info-grid">
+
+                <div class="video-creator-avatar">
+                    <img class="creator-pfp" src="creators/channel-1.jpeg">
+                </div>
+
+                <div class="video-info">
+
+                <p class="video-title">
+                    Talking Tech and AI with Google CEO Sundar Pichai!
+                </p>
+                <p class="video-creator">
+                    Marques Brownlee
+                </p>
+                <p class="video-stats">
+                    3.4M views &#183; 6 months ago
+                </p>
+
+                </div>
+
             </div>
+        </div>
 
-            <div class="video-info">
-
-            <p class="video-title">
-                Talking Tech and AI with Google CEO Sundar Pichai!
-            </p>
-            <p class="video-creator">
-                Marques Brownlee
-            </p>
-            <p class="video-stats">
-                3.4M views &#183; 6 months ago
-            </p>
-
-            </div>
-        </div>   
 
         <div class="video-preview">
 
@@ -94,24 +99,28 @@
                 <img class="thumbnail" src="thumbnails/thumbnail-2.webp">
             </div>
 
-            <div class="video-creator-avatar">
-                <img class="creator-pfp" src="creators/channel-2.jpeg">
-            </div>
+            <div class="video-info-grid">
+                
+                <div class="video-creator-avatar">
+                    <img class="creator-pfp" src="creators/channel-2.jpeg">
+                </div>
 
-            <div class="video-info">
+                <div class="video-info">
 
-                <p class="video-title">
-                    Try Not To Laugh Challenge #9
-                </p>
-                <p class="video-creator">
-                    Markiplier
-                </p>
-                <p class="video-stats">
-                    19M views &#183; 4 years ago
-                </p>
+                    <p class="video-title">
+                        Try Not To Laugh Challenge #9
+                    </p>
+                    <p class="video-creator">
+                        Markiplier
+                    </p>
+                    <p class="video-stats">
+                        19M views &#183; 4 years ago
+                    </p>
+                </div>
 
             </div>
         </div>
+
 
         <div class="video-preview">
 
@@ -119,21 +128,24 @@
                 <img class="thumbnail" src="thumbnails/thumbnail-3.webp">
             </div>
 
-            <div class="video-creator-avatar">
-                <img class="creator-pfp" src="creators/channel-3.jpeg">
-            </div>
+            <div class="video-info-grid">
 
-            <div class="video-info">
+                <div class="video-creator-avatar">
+                    <img class="creator-pfp" src="creators/channel-3.jpeg">
+                </div>
 
-                <p class="video-title">
-                    Crazy Tik Toks Taken Moments Before DISASTER
-                </p>
-                <p class="video-creator">
-                    SSSniperWolf
-                </p>
-                <p class="video-stats">
-                    12M views &#183; 1 year ago
-                </p>
+                <div class="video-info">
+
+                    <p class="video-title">
+                        Crazy Tik Toks Taken Moments Before DISASTER
+                    </p>
+                    <p class="video-creator">
+                        SSSniperWolf
+                    </p>
+                    <p class="video-stats">
+                        12M views &#183; 1 year ago
+                    </p>
+                </div>
 
             </div>
         </div>
