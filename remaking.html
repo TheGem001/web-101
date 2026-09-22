@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        
+        .box {
+            background-color: #0f0f0f;
+            display: grid;
+            grid-template-columns: 300px 1fr;
+            padding: 8px;
+            border-radius: 15px;
+            transition: background-color 0.3s ease;
+        }
+        .box:hover {
+            background-color: #2e2318;
+        }
+
+        .thumbnail {
+            display: inline;
+            width: 300px;
+            height: 169px;
+            border-radius: 15px;
+        }
+        .video-info {
+            margin-left: 18px;
+        }
+        p {
+            font-family: Arial, Helvetica, sans-serif;
+            margin-top: 0;
+            margin-bottom: 0;
+        }
+        
+    </style>
+</head>
+<body style="
+background-color: #0f0f0f;">
+    <div class="grid">
+        <div class="box">
+            <div class="thumbnail-div">
+                <img class="thumbnail" src="thumbnails/thumbnail-1.webp">
+            </div>
+            <div class="video-info">
+                <p style="
+                    color: white;
+                    margin-top: 5px;
+                    margin-bottom: 8px;
+                    font-size: 16px;">
+                    Build a custom API + app in 4 hours Web Dev challege S2:E1
+                </p>
+                <p style="
+                    color: #aaaa;
+                    margin-bottom: 8px;
+                    font-size: 14px;">
+                    Code TV
+                </p>
+                <p style="
+                    margin-top: 0;
+                    margin-bottom: 0;
+                    color: #aaaa;
+                    font-size: 12px;">
+                    455k 1y ago
+                </p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
