@@ -5,6 +5,7 @@
                 row-gap: 40px;
             } 
             .thumbnail-row {
+                position: relative;
                 margin-bottom: 12px;
             }
 
@@ -27,7 +28,7 @@
                 font-weight: 500;
                 line-height: 20px;
                 margin-bottom: 12px;
-                 margin-top: 0;
+                margin-top: 0;
             }
 
             .video-creator {
@@ -39,5 +40,16 @@
                 font-size: 12px;
                 color: #606060;
                 margin-bottom: 4px;
+            }
+            .video-time {
+                position: absolute;
+                bottom: 8px;
+                right: 5px;
+                background-color: rgba(0, 0, 0, 0.8);
+                color: #fff;
+                padding: 2px 4px;
+                font-size: 12px;
+                border-radius: 2px;
+                font-family: 'Roboto', 'Arial';
             }
       
