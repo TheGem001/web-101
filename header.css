@@ -12,7 +12,7 @@
     background-color: #fff;
 
     border-bottom: 1px solid #e5e5e5;
-    z-index: 100;
+    z-index: 50;
 }
 .left-section {
     display: flex;
@@ -43,6 +43,43 @@
     margin-left: -1px;
     margin-right: 10px;
 }
+.search-button,
+.mic-button,
+.upload-container,
+.apps-container,
+.notification-tooltip-container {
+    position: relative;
+}
+.search-button .tooltip,
+.mic-button .tooltip,
+.upload-container .tooltip,
+.apps-container .tooltip,
+.notification-tooltip-container .tooltip {
+    font-family: 'Roboto', 'Arial';
+    font-size: 12px;
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: #333;
+    color: #fff;
+    padding: 5px 10px;
+    border-radius: 4px;
+    font-size: 12px;
+    white-space: nowrap;
+    opacity: 0;
+    visibility: hidden;
+    transition: opacity 0.3s, visibility 0.3s;
+}
+.search-button:hover .tooltip,
+.mic-button:hover .tooltip,
+.upload-container:hover .tooltip,
+.apps-container:hover .tooltip,
+.notification-tooltip-container:hover .tooltip {
+    opacity: 1;
+    visibility: visible;
+}
+
 .search-bar {
     height: 36px;
     flex: 1;
